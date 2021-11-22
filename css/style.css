@@ -1,0 +1,159 @@
+/*-- CSS Reset --*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*-- Main structural styling --*/
+
+body {
+    background: #F2EDD0;
+    color: #333333;
+    width: 75%;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+section, header, footer {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+/*-- Styling Typography --*/
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+p, li {
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 5.6rem;
+    margin-top: 2em;
+    margin-bottom: .1em;
+    color: #D9B64E;
+}
+h2 {
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0;
+    color: #D9B64E;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #D9C589;
+}
+
+blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.42rem;
+    color: #AFB34B;
+}
+
+cite {
+    font-size: 0.8em;
+    color: #333333;
+    font-style: normal;
+}
+
+header h2 {
+    font-size: 2.827rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 3em;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+
+/*-- Styling Links --*/
+a{
+    color: #F2EDD0;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F2EDD0;
+}
+
+a:hover {
+    color: #F2EDD0;
+    border-bottom: 1px dotted;
+}
+
+/*-- Styling Nav --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #BCBF50;
+    padding: 2em 0;
+    font-size: 0.75rem;
+    border-top: 1px solid #989b46;
+    border-bottom: 1px solid #989b46;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: upper-case;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a {
+    color: #f7f7f7;
+}
+
+nav a:visited {
+    color: #F2EDD0;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #FFFDF5;
+    transition: all 0.3s ease-in-out;
+}
+
+hr{
+    margin: 100px 0;
+    height: 1px;
+    background-color: #F2EDD0;
+    color: #F2EDD0;
+    border: 0 none;
+}
+
+
+/*-- Footer --*/
+
+footer {
+    text-align: center;
+    font-size: 0.707rem;
+    margin: 5em 8em 0;
+}
