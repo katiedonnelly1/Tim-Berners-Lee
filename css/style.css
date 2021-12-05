@@ -10,7 +10,7 @@
 /*-- Main structural styling --*/
 
 body {
-    background: #F2EDD0;
+    background: #DCE8F2;
     color: #333333;
     width: 75%;
     max-width: 700px;
@@ -22,6 +22,19 @@ section, header, footer {
     width: 80%;
     max-width: 700px;
     margin: auto;
+    padding: 0;
+}
+
+.dark {
+    background: #2A4359;
+    padding: 3rem 0;
+    margin-top: 0.5em;
+}
+
+.light {
+    background: #B0C6D9;
+    padding: 3rem 0;
+    margin-top: 0.5em;
 }
 
 
@@ -45,25 +58,26 @@ h1 {
     font-size: 5.6rem;
     margin-top: 2em;
     margin-bottom: .1em;
-    color: #D9B64E;
+    color: #2A4359;
 }
 h2 {
     font-size: 1.999rem;
     margin: 3em 0 1em 0;
-    color: #D9B64E;
+    color: #2A4359;
 }
 
 h3 {
     font-size: 1.8rem;
-    color: #D9C589;
+    color: #2A4359;
 }
 
 blockquote {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-style: italic;
+    font-weight: 450rem;
     hanging-punctuation: first;
-    text-indent: -0.42rem;
-    color: #AFB34B;
+    color: #4E7DA6;
+    text-align: center;
 }
 
 cite {
@@ -87,16 +101,16 @@ header p {
 
 /*-- Styling Links --*/
 a{
-    color: #F2EDD0;
+    color: #f7f7f7;
     text-decoration: none;
 }
 
 a:visited {
-    color: #F2EDD0;
+    color: #f7f7f7;
 }
 
 a:hover {
-    color: #F2EDD0;
+    color: #f7f7f7;
     border-bottom: 1px dotted;
 }
 
@@ -108,11 +122,11 @@ nav {
     left: 0;
     margin: 0;
     width: 100%;
-    background: #BCBF50;
+    background: #2A4359;
     padding: 2em 0;
     font-size: 0.75rem;
-    border-top: 1px solid #989b46;
-    border-bottom: 1px solid #989b46;
+    border-top: 1px solid #2A4359;
+    border-bottom: 1px solid #2A4359;
 }
 
 nav ul {
@@ -132,7 +146,7 @@ nav a {
 }
 
 nav a:visited {
-    color: #F2EDD0;
+    color: #f7f7f7;
 }
 
 nav a:hover {
@@ -153,7 +167,17 @@ hr{
 /*-- Footer --*/
 
 footer {
-    text-align: center;
-    font-size: 0.707rem;
-    margin: 5em 8em 0;
+    text-align: left;
+    font-size: 0.8rem;
+    margin: auto;
+}
+
+footer li {
+    color: #f7f7f7;
+    line-height: 1.5rem;
+}
+
+footer a:hover {
+    color: #2A4359;
+    transition: all 0.5s ease-in-out;
 }
