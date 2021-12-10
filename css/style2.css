@@ -30,6 +30,7 @@ header {
 
 section {
     margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -48,14 +49,14 @@ section {
 .intro {
     background: #B0C6D9;
     padding: 3rem 0;
-    margin-top: -1.5em; 
+    margin-top: -3.9em; 
 }
 
 .gridimage {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    margin-top: -3rem;
+    margin-top: -0.5rem;
     margin-bottom: -1rem;
 }
 
@@ -90,7 +91,7 @@ header h2 {
     font-weight: 450;
     color: #2A4359;
     margin-top: -3rem;
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
     text-indent: 1.5rem;
 }
 
@@ -102,6 +103,18 @@ h1 {
 h1, h2 {
     color: #2A4359;
     font-style: bold;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    font-size: 1.8em;
+    font-family: hero-new, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0 0 1em 0;
+    margin: auto;
+    margin-left: 5px;
 }
 
 p, footer {
@@ -136,20 +149,29 @@ cite {
 
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 5px;
-    font-size: 5rem;
+    bottom: 5px;
+    left: 3px;
+    font-size: 4rem;
     font-family: hero-new, sans-serif;
     font-weight: 800;
     font-style: italic;
     line-height: normal;
     margin-left: 1rem;
+    margin-bottom: 6rem;
+}
+
+.bottom-left p {
+    font-size: 1.5rem;
+    font-family: hero-new, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #B0C6D9;
 }
 
 
 /*-- Style Links --*/
 a {
-    color: #ffffff;
+    color: #2A4359;
     text-decoration: none;
 }
 
@@ -161,14 +183,14 @@ a:hover {
 /*-- Styling Nav --*/
 
 nav {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     margin: 0;
     width: 100%;
     background: #2A4359;
     border-bottom: white;
-    padding: 2em 0;
+    padding: 2.5em 0;
     font-size: 0.75rem;
 }
 
@@ -193,7 +215,7 @@ nav a:visited {
 
 nav a:hover {
     border-bottom: none;
-    color: #DCE8F2;
+    color: #98C5FF;
     transition: all 0.3s ease-in-out;
 }
 
@@ -211,8 +233,8 @@ img {
     display: block;
         margin: 2em 0;
         padding: 0;
-        max-width: 100%;
-        margin-top: 4em;
+        width: 100%;
+        margin-top: 0.2em;
 }
 
 
@@ -245,6 +267,7 @@ img {
         font-size: 1.1em;
         line-height: normal;
         text-align: left;
+        list-style: none;
     }
 
 
@@ -253,12 +276,17 @@ img {
         text-align: center;
     }
 
+
+    footer section {
+        text-align: left;
+    }
+
     footer a {
         color: #f7f7f7;
         margin: 0 5px;
     }
 
     footer a:hover {
-        color: #DCE8F2;
+        color: #98C5FF;
         transition: all 0.5s ease-in-out;
     }
